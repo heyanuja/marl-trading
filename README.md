@@ -1,6 +1,6 @@
 # Multi-Agent RL Trading System
 
-This is a reinforcement learning framework for training agents to trade in simulated markets using PPO/Proximal Policy Optimization!        The goal: get the agent to learn to buy low, sell high, and manage a portfolio while considering market impact
+This is a reinforcement learning framework for training agents to trade in simulated markets using PPO/Proximal Policy Optimization! The goal is to get the agent to learn to buy low, sell high, and manage a portfolio while considering market impact
 
 ![Training Dashboard](results/training_results.png)
 
