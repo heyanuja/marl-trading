@@ -2,7 +2,7 @@
 
 This is a reinforcement learning framework for training agents to trade in simulated markets using PPO or Proximal Policy Optimization!
 
-![Training Dashboard](results/analysis_dashboard.png)
+![Training Dashboard](src/results/training_results.png)
 
 ## Overview
 
@@ -15,7 +15,7 @@ This is a reinforcement learning framework for training agents to trade in simul
 
 the agent learns stable trading strategies:
 
-![Returns Over Time](results/analysis_dashboard.png)
+![Returns Over Time](src/results/analysis_dashboard.png)
 
 some key findings are that:
 - returns stabilize around 3 million after initial exploration
@@ -23,6 +23,9 @@ some key findings are that:
 - looks like the agent adapts to market volatility
 
 ## Some Technical Details
+
+### Environment Performance
+![Price Evolution](src/results/price_evolution.gif)
 
 ### Environment
 - custom OpenAI gym environment
@@ -50,4 +53,4 @@ pip install -r requirements.txt
 python train.py  #to train the agent
 ```
 
-in `notebooks/analysis.ipynb` there's performance analysis w more detail
+in `notebooks/analysis.ipynb` there's performance
