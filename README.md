@@ -2,7 +2,7 @@
 
 This is a reinforcement learning framework for training agents to trade in simulated markets using PPO or Proximal Policy Optimization!
 
-![Training Dashboard](src/results/training_results.png)
+![Training Dashboard](results/training_results.png)
 
 ## Overview
 
@@ -15,7 +15,7 @@ This is a reinforcement learning framework for training agents to trade in simul
 
 the agent learns stable trading strategies:
 
-![Returns Over Time](src/results/analysis_dashboard.png)
+![Returns Over Time](results/analysis_dashboard.png)
 
 some key findings are that:
 - returns stabilize around 3 million after initial exploration
@@ -25,7 +25,7 @@ some key findings are that:
 ## Some Technical Details
 
 ### Environment Performance
-![Price Evolution](src/results/price_evolution.gif)
+![Price Evolution](results/price_evolution.gif)
 
 ### Environment
 - custom OpenAI gym environment
@@ -41,7 +41,7 @@ some key findings are that:
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/marl-trading.git
+git clone https://github.com/yourusernameheh/marl-trading.git
 cd marl-trading
 python -m venv venv
 source venv/bin/activate
