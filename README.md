@@ -53,4 +53,4 @@ pip install -r requirements.txt
 python train.py  #to train the agent
 ```
 
-in `notebooks/analysis.ipynb` there's performance
+in `notebooks/analysis.ipynb` there's performance analysis info
