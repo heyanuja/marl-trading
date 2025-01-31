@@ -41,8 +41,7 @@ some key findings are that:
 
 ## Installation
 ```bash
-git clone https://github.com/yourusernameheh/marl-trading.git
-cd marl-trading
+clone the repo etc
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
