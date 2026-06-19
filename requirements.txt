@@ -3,5 +3,5 @@ gymnasium
 numpy
 pandas
 matplotlib
-wandb
 seaborn
+pillow

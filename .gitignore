@@ -1,4 +1,20 @@
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Tooling
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# OS
 .DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Artifacts
+results/
